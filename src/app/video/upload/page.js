@@ -63,7 +63,7 @@ const Upload = () => {
           onChange={(e) =>
             setUploadData({ ...uploadData, name: e.target.value })
           }
-          className="bg-slate-900 p-2 w-[50%] border border-slate-800"
+          className="bg-slate-100 p-2 w-[50%] border border-slate-800"
         />
         <label>Video URL</label>
         <input
@@ -72,7 +72,7 @@ const Upload = () => {
           onChange={(e) =>
             setUploadData({ ...uploadData, url: e.target.value })
           }
-          className="bg-slate-900 p-2 w-[50%] border border-slate-800"
+          className="bg-slate-100 p-2 w-[50%] border border-slate-800"
         />
         <button
           onClick={uploadVideo}
